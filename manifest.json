@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "YOUTUBE: REMOVE DISTRACTIONS",
+  "version": "0.1.0",
+  "description": "Removes recommended videos from YouTube, so you don't open 20 tabs and lose your evening to procrastination.",
+  "author": "Iustin Ghergu",
+
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://www.youtube.com/watch*"]
+    }
+  ]
+}
